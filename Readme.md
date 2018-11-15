@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [grid_control.cs](./CS/Q139427/grid_control.cs) (VB: [grid_control.vb](./VB/Q139427/grid_control.vb))
+* [grid_view.cs](./CS/Q139427/grid_view.cs) (VB: [grid_view.vb](./VB/Q139427/grid_view.vb))
+<!-- default file list end -->
 # How to override the LayoutView painting mechanism
 
 
