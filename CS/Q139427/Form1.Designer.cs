@@ -51,7 +51,7 @@ namespace Q139427 {
             // 
             // layoutViewCard1
             // 
-            this.layoutViewCard1.HeaderButtonsLocation = DevExpress.Utils.GroupElementLocation.AfterText;
+           
             this.layoutViewCard1.Name = "layoutViewCard1";
             // 
             // Form1

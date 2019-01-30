@@ -50,7 +50,7 @@
 			' 
 			' layoutViewCard1
 			' 
-			Me.layoutViewCard1.HeaderButtonsLocation = DevExpress.Utils.GroupElementLocation.AfterText
+
 			Me.layoutViewCard1.Name = "layoutViewCard1"
 			' 
 			' Form1
