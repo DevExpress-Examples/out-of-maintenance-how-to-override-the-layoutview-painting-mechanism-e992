@@ -1,10 +1,9 @@
-Imports Microsoft.VisualBasic
-Imports System
-Imports DevExpress.XtraGrid
+﻿Imports DevExpress.XtraGrid
 
 Namespace DXSample
 	Public Class MyGridControl
 		Inherits GridControl
+
 		Public Sub New()
 			MyBase.New()
 		End Sub

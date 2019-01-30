@@ -1,5 +1,4 @@
-Imports Microsoft.VisualBasic
-Imports DevExpress.XtraGrid.Views.Layout
+﻿Imports DevExpress.XtraGrid.Views.Layout
 Imports DevExpress.XtraGrid
 Imports DevExpress.XtraLayout
 Imports DevExpress.XtraLayout.Registrator
@@ -15,6 +14,7 @@ Imports DevExpress.XtraEditors.Controls
 Namespace DXSample
 	Public Class MyLayoutView
 		Inherits LayoutView
+
 		Public Sub New()
 			MyBase.New()
 		End Sub
@@ -36,6 +36,7 @@ Namespace DXSample
 
 	Public Class MyLayoutViewLayoutControlImplementor
 		Inherits LayoutViewLayoutControlImplementor
+
 		Public Sub New(ByVal owner As ILayoutControlOwner)
 			MyBase.New(owner)
 		End Sub
@@ -56,6 +57,7 @@ Namespace DXSample
 
 	Public Class MyLayoutViewSkinPaintStyle
 		Inherits LayoutViewSkinPaintStyle
+
 		Public Sub New(ByVal owner As ISupportLookAndFeel, ByVal view As LayoutView)
 			MyBase.New(owner, view)
 		End Sub
@@ -75,6 +77,7 @@ Namespace DXSample
 
 	Public Class MyLayoutViewFieldSkinPainter
 		Inherits LayoutViewFieldSkinPainter
+
 		Public Sub New(ByVal layoutView As LayoutView)
 			MyBase.New(layoutView)
 		End Sub
@@ -89,6 +92,7 @@ Namespace DXSample
 
 	Public Class MyLayoutInfoRegistrator
 		Inherits DevExpress.XtraGrid.Registrator.LayoutViewInfoRegistrator
+
 		Public Sub New()
 			MyBase.New()
 		End Sub
